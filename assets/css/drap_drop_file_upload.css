@@ -1,0 +1,181 @@
+  .hidden {
+    display:none !important;
+  }
+  .products-uploads-field-type-file_upload label {
+    width: 100%;
+  }
+  .products-uploads-taks-type {
+    list-style: none;
+    margin:0;
+    padding: 0;
+  }
+  .products-uploads-taks-type li {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display:flex;
+  }
+  .products-uploads-taks-type li >div {
+    flex: 1;
+  }
+  .products-uploads-taks-type li .products-uploads-fileprogressBar {
+    flex: 2;
+  }
+  .products-uploads-dragandrophandler-container {
+    width: 100%;
+    margin: 15px 5px;
+  }
+  .products-uploads-dragandrophandler{
+  border: 2px dashed #92AAB0;
+  width: 100%;
+  height: 200px;
+  color: #92AAB0;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0px 10px 10px;
+  font-size:200%;
+  position:relative;
+  box-sizing: border-box;
+  }
+  .products-uploads-dragandrophandler-inner {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      text-overflow: ellipsis;
+      text-align: center;
+      line-height: 40px;
+      padding-top: 15px;
+  }
+  .products-uploads-drop-progressBar {
+    width: 100%;
+    border-radius: 5px; 
+    overflow: hidden;
+    display:inline-block;
+    vertical-align:top;
+    flex: 6 !important;
+    margin-left: 65px;
+    box-sizing: content-box;
+    width:calc(100% - 65px)
+  }
+  
+  .products-uploads-drop-progressBar div {
+    height: auto;
+    color: #fff;
+    text-align: right;
+    line-height: 15px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #4caf50; 
+    border-radius: 3px; 
+    font-size: 13px;
+  }
+  .products-uploads-drop-progressBar.products-uploads-text-error-pro div {
+    background-color: #565555;
+  }
+  .products-uploads-drop-statusbar{
+    width:100%;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+    margin: 10px 0;
+    position: relative;
+  }
+  .products-uploads-drop-statusbar >div {
+       overflow: hidden;
+  }
+  .products-uploads-drop-text-error {
+    color: red;
+    padding-left: 50px;
+  }
+  .products-uploads-drop-type_file {
+      display: inline-block;
+      position: absolute;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 13px;
+      margin-top: 25px;
+      padding: 0 4px;
+      border-radius: 2px;
+      box-shadow: 1px 1px 2px #abc;
+      color: #fff;
+      background: #0080c8;
+      text-transform: uppercase;
+  }
+  .products-uploads-drop-filename
+  {
+  display:inline-block;
+  vertical-align:top;
+  margin-left: 65px;
+  }
+  .products-uploads-drop-type{
+    width: 50px;
+    height: 50px;
+    background: url(../images/generic.png) no-repeat center center; 
+    background-size: 100%;
+    position: absolute;
+  }
+  .products-uploads-drop-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  .products-uploads-drop-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .products-uploads-drop-filesize
+  {
+  display:inline-block;
+  vertical-align:top;
+  color:#30693D;
+  margin-left:10px;
+  margin-right:5px;
+  margin-left: 10px;
+  color: #444242;
+  font-weight: 700;
+  }
+  .products-uploads_file_upload_remove,.products-uploads-drop-abort  {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/remove.png) center no-repeat;
+    cursor: pointer;
+  }
+    .products-uploads_file_upload_remove a {
+      text-decoration: none !important;
+      display:inline-block;
+      background: #f7f7f8 url(../images/trash.png) center no-repeat;
+      text-indent: -999999px;
+      width: 25px;
+      height: 25px;
+      border:1px solid #34495e;
+    }
+      .products-uploads_file_upload_remove a:hover {
+        opacity: 0.8;
+      }
+      .products-uploads-text-browser a {
+        display: inline-block;
+      background: #6381E6;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-align: center;
+      font-weight: 700;
+      vertical-align: top;
+      cursor: pointer;
+      -webkit-transition: all .2s ease-out;
+      transition: all .2s ease-out;
+      text-decoration:none !important;
+      color:#fff !important;
+      font-size:18px;
+      }
+       .products-uploads-text-browser a:hover {
+        opacity:0.8;
+       }
+      .products-uploads-text-drop {
+          font-size: 100%;
+          font-weight: bold;
+      }
+    .products-uploads-drop-progressBar.products-uploads-text-error{
+    border:none;
+    color:red;
+    }
